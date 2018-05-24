@@ -7,6 +7,7 @@ class Library
   end
 
   def add_to_collection(author)
+    
   end
 
 end

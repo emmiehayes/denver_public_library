@@ -1,5 +1,4 @@
 require './lib/book'
-require 'pry'
 class Author
 
   attr_reader :author_data,
@@ -8,7 +7,7 @@ class Author
   def initialize(author_data)
     @author_data = {
                     first_name: author_data[:first_name],
-                    last_name: author_data[:last_name]
+                    last_name:  author_data[:last_name]
                     }
     @books = []
   end
